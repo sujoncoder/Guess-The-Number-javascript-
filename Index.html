@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the number</title>
+</head>
+<body>
+    <section class="parent">
+        <!-- AGAIN AND BETWEEN SECTION. -->
+        <div class="first-sec">
+            <div class="btn-again">
+                <button onclick="" id="again">Again</button>
+            </div>
+    
+            <div class="bwtn-number">
+                <h4 class=""> 
+                < Between 1 to 20 Numbers. > 
+                </h4>
+            </div>
+        </div>
+        <!-- GUESS THE NUMBER TITTLE. -->
+        <div class="gues-numr">
+            <h1>Guess The Number.🎁</h1>
+        </div>
+
+        <!-- NUMBER SECTION. -->
+        <div class="show">
+                <h1 id="guess-number">0</h1>
+            <div class="hide">
+                <h1>💡</h1>
+            </div>
+        </div>
+
+        <!-- HIGH, LOW & CONGRATULATE TITTLE. -->
+        <div class="poster">
+            <h3 id="high" class="h-number"></h3>
+            <h3 id="low" class="l-number"></h3>
+
+            <h1 id="correct" class="congratulate"><span></span></h1>
+        </div>
+
+        <!-- INPUT AND ATTEMP SECTION. -->
+        <div class="nmr-input nmr-atm">
+            <input id="input-field" type="number">
+
+            <div class="attempt">
+                <h4>💥Attempt: <span id="attempt-count">0</span> </h4>
+            </div>
+        </div>
+
+        <!-- CHECK BUTTON SECTION. -->
+        <div class="check">
+            <button id="check-btn">Check!</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

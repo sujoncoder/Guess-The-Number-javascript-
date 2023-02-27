@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: h-screen;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgba(158, 138, 214, 0.5);
+    /* height: screen; */
+}
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-again>button{
+    background-color: rgb(236, 75, 102);
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-again>button:hover{
+    background-color: rgb(233, 51, 81);
+}
+.btn-again>button:active{
+    background-color: rgb(148, 32, 32);
+}
+.bwtn-number>h4{
+    color: rgb(201, 58, 106);
+}
+.gues-numr{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: rgb(66, 62, 55);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hide{
+    position: absolute;
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin:auto
+}
+.hide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    position: relative;
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin:auto
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster>h3{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(1, 121, 1);
+}
+.poster>h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.congratulate>span{
+    color: rgb(192, 76, 95);
+    font-size: 25px;
+}
+.nmr-input>input{
+    text-align: center;
+    border: 1px solid blueviolet;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.nmr-atm{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.attempt>h4{
+    color: blue;
+    margin-left: 20px;
+}
+.attempt>h4>span{
+    color: rgb(170, 24, 24);
+    font-size: 20px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+}
+.check>button{
+    background-color: rgb(189, 50, 73);
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.check>button:active{
+    background-color: blueviolet;
+}
